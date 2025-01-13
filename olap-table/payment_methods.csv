@@ -1,0 +1,6 @@
+Payment_Method,Payment_Method_ID
+Debit Card,7001
+Cash on Delivery,7002
+Net Banking,7003
+Credit Card,7004
+UPI,7005

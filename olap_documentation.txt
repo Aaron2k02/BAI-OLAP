@@ -1,0 +1,49 @@
+Table: sales_by_category_region
+Purpose: Pre-computed sales totals by product category and region.
+Query:
+
+            CREATE TABLE sales_by_category_region AS
+            SELECT
+                pc.Category AS product_category,
+                geo.Country AS country,
+                geo.State AS state,
+                SUM(fact.Total_Amount) AS total_sales,
+                COUNT(fact.Order_ID) AS transaction_count
+            FROM sales_fact fact
+            JOIN dim_products prod ON fact.Product_ID = prod.Product_ID
+            JOIN dim_product_categories pc ON prod.Category_ID = pc.Category_ID
+            JOIN dim_customers cust ON fact.Customer_ID = cust.Customer_ID
+            JOIN dim_geography geo ON cust.Geography_ID = geo.Geography_ID
+            GROUP BY pc.Category, geo.Country, geo.State;
+        
+
+Table: sales_by_product_customer
+Purpose: Pre-computed sales totals by product and customer demographics.
+Query:
+
+            CREATE TABLE sales_by_product_customer AS
+            SELECT
+                prod.Product_Name AS product_name,
+                demo.Age_Group AS customer_age_group,
+                demo.Gender AS customer_gender,
+                SUM(fact.Total_Amount) AS total_sales
+            FROM sales_fact fact
+            JOIN dim_products prod ON fact.Product_ID = prod.Product_ID
+            JOIN dim_customers cust ON fact.Customer_ID = cust.Customer_ID
+            JOIN dim_demographics demo ON cust.Demographics_ID = demo.Demographics_ID
+            GROUP BY prod.Product_Name, demo.Age_Group, demo.Gender;
+        
+
+Table: sales_by_time
+Purpose: Pre-computed sales totals by year and month.
+Query:
+
+            CREATE TABLE sales_by_time AS
+            SELECT
+                EXTRACT(YEAR FROM fact.Order_Date) AS year,
+                EXTRACT(MONTH FROM fact.Order_Date) AS month,
+                SUM(fact.Total_Amount) AS total_sales
+            FROM sales_fact fact
+            GROUP BY year, month;
+        
+

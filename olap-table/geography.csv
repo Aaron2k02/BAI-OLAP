@@ -1,0 +1,57 @@
+City,State,Country,Geography_ID
+Mumbai,Rajasthan,India,1001
+Jaipur,Tamil Nadu,India,1002
+Chennai,Karnataka,India,1003
+Chennai,Maharashtra,India,1004
+Kolkata,Rajasthan,India,1005
+Jaipur,Delhi,India,1006
+Hyderabad,Maharashtra,India,1007
+Hyderabad,Karnataka,India,1008
+Pune,Delhi,India,1009
+Hyderabad,Tamil Nadu,India,1010
+Pune,Tamil Nadu,India,1011
+Hyderabad,Rajasthan,India,1012
+Chennai,Delhi,India,1013
+Chennai,West Bengal,India,1014
+Mumbai,Delhi,India,1015
+Delhi,Telangana,India,1016
+Jaipur,Maharashtra,India,1017
+Bangalore,Rajasthan,India,1018
+Chennai,Tamil Nadu,India,1019
+Pune,Rajasthan,India,1020
+Hyderabad,Telangana,India,1021
+Kolkata,Tamil Nadu,India,1022
+Jaipur,West Bengal,India,1023
+Delhi,Karnataka,India,1024
+Delhi,Delhi,India,1025
+Bangalore,Delhi,India,1026
+Hyderabad,Delhi,India,1027
+Mumbai,Maharashtra,India,1028
+Bangalore,Maharashtra,India,1029
+Pune,Karnataka,India,1030
+Chennai,Rajasthan,India,1031
+Mumbai,Karnataka,India,1032
+Kolkata,Maharashtra,India,1033
+Bangalore,Telangana,India,1034
+Hyderabad,West Bengal,India,1035
+Pune,West Bengal,India,1036
+Chennai,Telangana,India,1037
+Mumbai,Telangana,India,1038
+Pune,Telangana,India,1039
+Kolkata,Delhi,India,1040
+Jaipur,Telangana,India,1041
+Delhi,Rajasthan,India,1042
+Kolkata,Karnataka,India,1043
+Mumbai,West Bengal,India,1044
+Delhi,Tamil Nadu,India,1045
+Jaipur,Karnataka,India,1046
+Delhi,Maharashtra,India,1047
+Bangalore,Karnataka,India,1048
+Mumbai,Tamil Nadu,India,1049
+Pune,Maharashtra,India,1050
+Bangalore,West Bengal,India,1051
+Delhi,West Bengal,India,1052
+Kolkata,West Bengal,India,1053
+Bangalore,Tamil Nadu,India,1054
+Kolkata,Telangana,India,1055
+Jaipur,Rajasthan,India,1056
