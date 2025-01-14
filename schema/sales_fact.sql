@@ -14,5 +14,6 @@ CREATE TABLE sales_fact (
     FOREIGN KEY (Customer_ID) REFERENCES dim_customers(Customer_ID),
     FOREIGN KEY (Product_ID) REFERENCES dim_products(Product_ID),
     FOREIGN KEY (Payment_Method_ID) REFERENCES dim_payment_methods(Payment_Method_ID),
-    FOREIGN KEY (Delivery_Status_ID) REFERENCES dim_delivery_status(Delivery_Status_ID)
+    FOREIGN KEY (Delivery_Status_ID) REFERENCES dim_delivery_status(Delivery_Status_ID),
+    FOREIGN KEY (Seller_ID) REFERENCES dim_sellers(Seller_ID)
 );
