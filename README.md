@@ -1,9 +1,7 @@
-Here's the revised version of your README with improved readability and structure:
-
 ---
 
 # Sales Data Warehouse Project
-
+### [View Full Documentation]()
 ---
 
 ## Introduction
@@ -109,9 +107,9 @@ This project involves designing a **Sales Data Warehouse** to enable efficient a
   ```
 
 ---
-
 ## OLAP Cube Use Cases
 
+![image](https://github.com/user-attachments/assets/14e5c0c4-ce16-48fe-9247-ae3f5c4e59db)
 ### 1. Sales by Category and Geography
 - **Objective**: Analyze sales performance across product categories and geographical regions.  
 - **Operations**: Use **ROLLUP** for hierarchical aggregation by product category, country, and state.  
@@ -119,8 +117,7 @@ This project involves designing a **Sales Data Warehouse** to enable efficient a
   - Total Sales  
   - Transaction Count  
 
-![Sales by Category and Geography](https://github.com/user-attachments/assets/bb4fb211-86dd-4fd9-97f7-8dffe5606b84)
-
+![image](https://github.com/user-attachments/assets/d5193173-c19d-4fbc-8761-025b69367763)
 #### Insights:
 - Balanced sales across categories suggest diversified product offerings.  
 - Higher sales in certain regions (e.g., India) indicate strong market presence.  
@@ -130,7 +127,7 @@ This project involves designing a **Sales Data Warehouse** to enable efficient a
 - Adapt strategies from high-performing regions to underperforming ones.  
 
 ---
-
+![image](https://github.com/user-attachments/assets/74c67e6b-313b-4f01-8d5c-627730c276fd)
 ### 2. Sales by Product and Customer Demographics
 - **Objective**: Understand sales performance by age group and gender.  
 - **Operations**: Use **Drill-down** for granular insights into customer segments.  
@@ -139,8 +136,7 @@ This project involves designing a **Sales Data Warehouse** to enable efficient a
   - Average Order Value (AOV)  
   - Purchase Frequency  
 
-![Sales by Product and Customer Demographics](https://github.com/user-attachments/assets/130ad4fa-f6be-4a80-ada1-ad1e4864fbc3)
-
+![image](https://github.com/user-attachments/assets/63a9dabb-0d3b-41d1-b0fe-1a27fb829b40)
 #### Insights:
 - Gender-based preferences for specific products.  
 - Popularity of products among certain age groups (e.g., 26-35 years old).  
@@ -149,7 +145,7 @@ This project involves designing a **Sales Data Warehouse** to enable efficient a
 - Develop targeted marketing campaigns for different demographics.  
 
 ---
-
+![image](https://github.com/user-attachments/assets/328c28c4-845c-4803-9e22-4994851a5940)
 ### 3. Sales by Time
 - **Objective**: Analyze trends by year and month for seasonal insights.  
 - **Operations**: Use **CUBE** for hierarchical aggregation across time dimensions.  
@@ -157,8 +153,7 @@ This project involves designing a **Sales Data Warehouse** to enable efficient a
   - Total Sales  
   - Transaction Count  
 
-![Sales by Time](https://github.com/user-attachments/assets/0b4d1d0c-336a-4135-98c4-f056a9ce1a37)
-
+![image](https://github.com/user-attachments/assets/852b2ca0-d8f9-423d-8d5f-45739ba2ca91)
 #### Insights:
 - Seasonal spikes in sales during specific months.  
 
